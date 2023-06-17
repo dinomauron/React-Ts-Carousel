@@ -60,7 +60,7 @@ const Carousel = ({ slides }: { slides: React.ReactNode[] }) => {
       <div className="w-full h-full overflow-hidden touch-none select-none">
         <div
           style={{
-            transform: `translateX(${translate}%)`,
+            transform: `translateX(${translate})`,
             transition: isSliding ? "transform .3s ease-in-out" : "none",
           }}
           className="w-full h-full flex [&>*]:flex-none"
